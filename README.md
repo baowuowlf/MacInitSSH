@@ -7,6 +7,11 @@ brew doctor
 brew update
 ```
 
+## 安装node
+```bash
+brew install node
+```
+
 ## 安装zsh
 
 ```bash
