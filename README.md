@@ -47,7 +47,7 @@ sudo gem install -n /usr/local/bin cocoapods -v 1.2.1
 ```
 
 
-## 配置oh my zsh 
+## 配置oh my zsh 
 
 ```bash
 open ~/.zshrc
