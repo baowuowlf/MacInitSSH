@@ -42,7 +42,7 @@ ruby -v
 #gem sources -a https://ruby.taobao.org/ ＃添加淘宝源
 #gem sources -l ＃列出当前的源
 sudo gem install -n /usr/local/bin cocoapods -v 1.2.1 
-替换成最新版本号
+#替换成最新版本号
 
 ```
 
@@ -51,7 +51,7 @@ sudo gem install -n /usr/local/bin cocoapods -v 1.2.1
 
 ```bash
 open ~/.zshrc
-......
+#修改配色
 ZSH_THEME="ys"
 ```
 
