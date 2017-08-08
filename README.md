@@ -41,10 +41,25 @@ ruby -v
 #gem sources --remove https://rubygems.org/ ＃移除官方源
 #gem sources -a https://ruby.taobao.org/ ＃添加淘宝源
 #gem sources -l ＃列出当前的源
-sudo gem install -n /usr/local/bin cocoapods -v 1.2.1 #替换成最新版本号
-```
+sudo gem install -n /usr/local/bin cocoapods -v 1.2.1 
+替换成最新版本号
 
 ```
+
+
+## 配置oh my zsh 
+
+```bash
+open ~/.zshrc
+......
+ZSH_THEME="ys"
+```
+
+## 找回任何来源的配置选项
+```bash
+sudo spctl --master-disable
+```
+
 # 设置并发数
 sudo ulimit -n 12100 
 # Enable repeat on keydown
